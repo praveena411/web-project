@@ -1,0 +1,80 @@
+<html>
+<head>
+<title>About</title>
+<style>
+body{
+background-color:grey;
+border:2px solid black;
+}
+a {
+font-family:monospace;
+color:black;
+font-size:50px;
+text-decoration:none;
+padding-left:30px;
+}
+p {
+text-align:center;
+}
+.container {
+position:relative;
+text-align:center;
+color:black;
+}
+.centered {
+position:absolute;
+top:50%;
+left:50%;
+transform:translate(-50%,-50%);
+}
+.flex-container {
+    display: -webkit-flex;
+    display: flex;
+    width: 700px;
+    height: 350px;
+    background-color: lightgrey;
+}
+
+.flex-item {
+    margin: 10px;
+}
+
+.item1 {
+    -webkit-flex: 1;
+    flex: 1;
+}
+
+.item2 {
+    -webkit-flex: 1;
+    flex: 1;
+}
+
+.item3 {
+    -webkit-flex: 1;
+    flex: 1;
+}
+</style>
+</head>
+<body>
+<a class="home" href="chicken.html">HOME   </a>
+<a class="about" href="About1.html">ABOUT   </a>
+<a class="news" href="news.html">NEWS&EVENTS   </a>
+<a class="help" href="help.html">HELP   </a>
+<a class="contact" href="contact.html">CONTACT</a>
+<a href="order.html">ONLINE</a>
+</br>
+<h1 style="font-family:monospace;text-align:center;text-shadow:2px 2px red;">About</h1>
+<div class="container"><p><img src="chi1.jpg" height="400px" width="800px"></p>
+<div class="centered" style="font-family:monospace;font-size:30px;text-align:center;">
+Chicken Shop serves rotisserie chickens that are marinated overnight,
+steamed and then split roasted over charcoal.
+</div>
+</div>
+<pre>
+	<div class="flex-item item1"><img src=chh1.jpg  width="500px" height="350px">       <img src=fc3.jpg  width="500px" height="350px"></div>
+	<div class="flex-item item2"><img src=fc1.jpg width="500px" height="350px">         <img src=fc5.jpg  width="500px" height="350px"></div>
+	<div class="flex-item item3"><img src=fc2.jpg width="500px" height="350px">         <img src=fc7.jpg  width="500px" height="350px"></div>
+</pre>
+</body>
+</html>
+
